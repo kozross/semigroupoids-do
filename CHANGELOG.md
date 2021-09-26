@@ -1,4 +1,4 @@
-# Revision history for semigroupoid-do
+# Revision history for semigroupoids-do
 
 ## 1.0 -- 2021-09-26
 

@@ -1,4 +1,4 @@
-# `semigroupoid-do` 
+# `semigroupoids-do` 
 
 ## What is this thing?
 
@@ -10,12 +10,12 @@ in a more general context than would normally be possible.
 
 [`semigroupoids`](https://hackage.haskell.org/package/semigroupoids) as a
 package is designed to generalize certain common type classes, such as
-`Applicative` and `Monad`; for example, something can be an `Apply` or `Bind`,
-but not an `Applicative` or `Monad` as no sensible definition for `pure`
-exists. However, without the convenience of do-notation, these instances mean
-significantly less, as they are awkward to use. This is an unnecessary
-restriction at least in this example, as nothing about do-notation requires
-`pure`.
+`Applicative` and `Monad`. This can be convenient: for example, something could 
+be an `Apply` or `Bind`, but not an `Applicative` or `Monad` if no sensible 
+definition for `pure` exists. However, without the convenience of do-notation, 
+such instances mean significantly less, as they are awkward to use. This is an 
+unnecessary restriction at least in this example, as nothing about do-notation
+requires `pure`.
 
 In this package, we provide a set of definitions suitable for use with
 `QualifiedDo`, generalizing all the necessary operations to their
@@ -62,7 +62,7 @@ couple of ways:
   `RebindableSyntax` capabilities.
 * `semigroupoids-syntax` hasn't been updated since 2014.
 * `semigroupoids-syntax` has support going back to much older GHCs; we limit
-  ourselves only to GHCs that have `QualifiedDo` (currently only 9.0.1).
+  ourselves only to GHCs that have `QualifiedDo`.
 
 In short, this is a maintained, small, and simple package, to do only one task.
 

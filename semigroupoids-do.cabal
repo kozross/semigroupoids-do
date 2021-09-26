@@ -13,7 +13,7 @@ author:             Koz Ross
 maintainer:         koz.ross@retro-freedom.nz
 bug-reports:        https://github.com/kozross/semigroupoids-do/issues
 copyright:          (C) Koz Ross 2021
-category:           Data
+category:           Semigroupoids
 tested-with:        GHC ==9.0.1
 build-type:         Simple
 extra-source-files:
