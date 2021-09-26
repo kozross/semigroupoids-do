@@ -1,0 +1,4 @@
+packages: ./semigroupoids-do.cabal 
+
+package semigroupoids-do
+  ghc-options: -Werror
