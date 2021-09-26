@@ -3,7 +3,6 @@
 
 -- |
 -- Module: Semigroupoids.Do
--- Description: Definitions needed for QualifiedDo use.
 -- Copyright: (C) Koz Ross 2021
 -- License: Apache 2.0
 -- Maintainer: koz.ross@retro-freedom.nz
